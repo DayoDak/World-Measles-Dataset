@@ -1,4 +1,4 @@
-# World Measles Dataset
+# Reported Measle Cases
 
 ![](Measles.jpg)
 
@@ -13,17 +13,30 @@ This is a comprehensive collection of data from the World Health Organization(W.
 4.  What is the year on year trends per country?
 
 ## Analysis
-MySQL was used to querry and interact with the measles dataset to get an understanding of the data towards solving the problem statements and providing the needed insights.
+MySQL was used to querry and interact with 2328 rows of reported measle Cases to get an understanding of the data towards solving the problem statements and providing the needed insights.
 Here is a preview of the querry language used for the analysis 👇
-![](querry.png)
+
+![](querry.png)       |       ![](querry2.png)
+:--------------------:|:-----------------------:
 
 ## Visualization
 Tableau is the tool of choice used for the visual presentation of the insights gotten.
 The visuals are spread through the following four Charts to simplify the reports and make it easy to navigate
 - Total Recorded Cases
-- Cases Per Year Per Country
+- Cases Per Year
 - Cases Per Region
 - Total Cases Per Country
 
-![](Dashboard.png)
+Cases Per Country trend chart has a filter dropdown of year on year cases per country.
 You can interract further with the dashboard [here](https://public.tableau.com/app/profile/adedayo1601/viz/ReportedMeaslesData/Dashboard1)
+
+![](Dashboard.png)
+
+## Conclusions
+- Africa has the highest reported cases of the six regions.
+- 2019 recorded the peak period of measle cases amidst the period in consideration.
+- India, Madagasgar, Nigeria, China and Philippines has the highest number of reported cases.
+
+## Recommendations
+The measles vaccine should be distributed evenly and efficiently in regions and areas that's most affected.
+
